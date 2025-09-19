@@ -1,0 +1,8 @@
+name: apresencaoGit
+on: push
+jobs: 
+  testejob:
+    runs-on: ubunto-latest
+    steps:
+      - name: apresentacao
+        run: echo "Apresentação Github Action"
